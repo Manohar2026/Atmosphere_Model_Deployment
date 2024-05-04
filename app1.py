@@ -1,7 +1,4 @@
-pip install scikit-learn
-import scikit-learn
 import streamlit as st
-import sklearn
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 import pickle
