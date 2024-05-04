@@ -7,7 +7,7 @@ import pickle
 model = RandomForestRegressor()  # Instantiate the model object
 
 # Assuming you have trained the model previously and saved it as "random_forest_regression_model.joblib"
-model_path = "C:/Users/manoh/Downloads/Run/random_forest_regression_model.pkl"
+model_path = "random_forest_regression_model.pkl"
 with open(model_path, 'rb') as f:
     model = pickle.load(f)
 
@@ -43,3 +43,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
